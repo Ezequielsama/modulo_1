@@ -13,8 +13,9 @@ c = 15378.12 / 5
 print(c)
 
 cancao = 'Roda mundo, roda gigante, roda moinho, roda pião.'
+world = cancao.split(' ')[1]
 
-print(f'Olá {cancao.split(' ')[1]}')
+print(f'Olá {world}')
 print(cancao.swapcase())
 print(cancao.title())
 
